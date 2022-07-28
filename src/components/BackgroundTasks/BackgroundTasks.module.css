@@ -1,0 +1,44 @@
+.backgroundTasks {
+  margin: 4rem auto 0;
+
+  max-width: 736px;
+}
+
+.backgroundTasks header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createdTasks {
+  font-size: 0.875rem;
+  font-weight: 700;
+
+  display: flex;
+
+  color: var(--blue);
+}
+
+.completedTasks {
+  font-size: 0.875rem;
+  font-weight: 700;
+
+  display: flex;
+
+  color: var(--purple);
+}
+
+.boxTasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 1.5rem;
+  border-top: 1px solid #333333;
+  border-radius: 0.5rem;
+  padding: 6rem 1.5rem;
+}
+
+.boxTaskImage {
+  margin-bottom: 1rem;
+}

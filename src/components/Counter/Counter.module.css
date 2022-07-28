@@ -1,0 +1,18 @@
+.counter {
+  background: var(--gray-400);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 999px;
+}
+
+.counter span {
+  font-weight: 700;
+  font-size: 0.75rem;
+
+  color: var(--gray-200);
+}
